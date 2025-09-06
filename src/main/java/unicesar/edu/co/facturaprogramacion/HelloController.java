@@ -1,14 +1,38 @@
 package unicesar.edu.co.facturaprogramacion;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+
+import java.lang.reflect.Field;
 
 public class HelloController {
     @FXML
-    private Label welcomeText;
+    private Label NombreText;
+    @FXML
+    private Label IdText;
+    @FXML
+    private Label EmailText;
+    @FXML
+    private Label DireccionText;
+    @FXML
+    private Button btnGuardar;
+    @FXML
+    private Button btnActualizar;
+    @FXML
+    private TextField DireccionField;
+    @FXML
+    private TextField IdField;
+    @FXML
+    private TextField EmailField;
+    @FXML
+    private TextField NombreField;
+
+
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void onbtnGuardarClick() {
+        NombreText.setText("Welcome to JavaFX Application!");
     }
 }
