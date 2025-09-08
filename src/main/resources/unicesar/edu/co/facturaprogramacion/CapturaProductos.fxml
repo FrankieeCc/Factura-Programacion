@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="31.0" prefWidth="600.0" style="-fx-background-color: #1E637A;">
+         <children>
+            <Label layoutX="229.0" layoutY="6.0" text="CAPTURA DE PRODUCTOS" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Button fx:id="GuardarButtonCP" layoutX="110.0" layoutY="282.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #1E637A;" text="GUARDAR" textFill="WHITE" />
+      <Button fx:id="ActualizarButtonCP" layoutX="360.0" layoutY="282.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #1E637A;" text="ACTUALIZAR" textFill="#f6f6f6" />
+      <TextField fx:id="IdFieldCP" layoutX="235.0" layoutY="71.0" prefHeight="25.0" prefWidth="236.0" />
+      <TextField fx:id="NombreFieldCP" layoutX="235.0" layoutY="114.0" prefHeight="25.0" prefWidth="236.0" />
+      <TextField fx:id="CantidadFieldCP" layoutX="235.0" layoutY="156.0" prefHeight="25.0" prefWidth="236.0" />
+      <TextField fx:id="PrecioFieldCP" layoutX="235.0" layoutY="200.0" prefHeight="25.0" prefWidth="236.0" />
+      <Label fx:id="IDTextCP" layoutX="152.0" layoutY="75.0" text="ID" />
+      <Label fx:id="NombreTextCP" layoutX="141.0" layoutY="118.0" text="NOMBRE" />
+      <Label fx:id="CantidadTextCP" layoutX="137.0" layoutY="160.0" text="CANTIDAD" />
+      <Label fx:id="PrecioTextCP" layoutX="147.0" layoutY="204.0" text="PRECIO" />
+   </children>
+</Pane>

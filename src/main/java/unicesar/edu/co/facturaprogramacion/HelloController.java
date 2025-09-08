@@ -28,6 +28,26 @@ public class HelloController {
     private TextField EmailField;
     @FXML
     private TextField NombreField;
+    @FXML
+    private Button GuardarButtonCP;
+    @FXML
+    private Button ActualizarButtonCP;
+    @FXML
+    private TextField IdFieldCP;
+    @FXML
+    private TextField NombreFieldCP;
+    @FXML
+    private TextField CantidadFieldCP;
+    @FXML
+    private TextField PrecioFieldCP;
+    @FXML
+    private Label IDTextCP;
+    @FXML
+    private Label NombreTextCP;
+    @FXML
+    private Label CantidadTextCP;
+    @FXML
+    private Label PrecioTextCP;
 
 
 

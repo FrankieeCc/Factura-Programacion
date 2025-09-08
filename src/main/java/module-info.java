@@ -10,6 +10,7 @@ module unicesar.edu.co.facturaprogramacion {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens unicesar.edu.co.facturaprogramacion to javafx.fxml;
     exports unicesar.edu.co.facturaprogramacion;
